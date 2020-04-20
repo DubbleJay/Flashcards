@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/chooseADeckTextView"
+        android:text="@string/chooseADeckString"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/decksRecyclerView"
+        android:layout_below="@id/chooseADeckTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"/>
+
+    <TextView
+        android:id="@+id/noDecksTextView"
+        android:text="No Decks In Your Library Yet!"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <include layout="@layout/main_menu_fab" />
+
+
+</RelativeLayout>

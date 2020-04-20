@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="200sp"
+    android:paddingTop="200sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/notebook_paper_background"
+        android:scaleType = "centerCrop"
+        />
+
+
+    <ScrollView
+        android:id="@+id/front_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/back_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="@android:color/black"
+            android:fontFamily="monospace"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_gravity="center_horizontal"/>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>

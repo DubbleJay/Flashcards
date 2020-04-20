@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25sp"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rectangle"
+        android:tint="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/card_index_text_view"
+        android:textColor="@android:color/black"
+        android:padding="5sp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/front_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="false"
+        >
+    <TextView
+        android:id="@+id/front_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Front"
+        android:textColor="@android:color/black"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_gravity="center_horizontal"/>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:paddingTop="25sp"
+    android:paddingBottom="25sp"
+    android:background="@drawable/deck_item_border"
+    >
+
+    <ImageView
+        android:id="@+id/deck_image"
+        android:src="@drawable/cards_icon"
+        android:transitionName="deck_image_transition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15sp"
+        android:layout_marginRight="12sp"/>
+
+    <TextView
+        android:id="@+id/deck_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:transitionName="deck_title_transition"
+        />
+
+</LinearLayout>

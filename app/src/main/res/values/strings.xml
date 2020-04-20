@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="previousButtonText">Previous</string>
+    <string name="nextButtonText">Next</string>
+    <string name="flipButtonText">Flip</string>
+    <string name="chooseADeckString">Choose A Deck:</string>
+    <string name="addCardString">Add a Card</string>
+    <string name="questionString">Question:</string>
+    <string name="answerString">Answer:</string>
+    <string name="cancelButtonString">Cancel</string>
+    <string name="addCardButtonString">Add Card</string>
+    <string name="new_deck">Create a New Set of Cards</string>
+    <string name="card_added_toast">Card Added to </string>
+    <string name="question_hint">Question </string>
+    <string name="answer_hint">Answer</string>
+    <string name="delete_card_string">Delete</string>
+    <string name="save_changes_string">Save Changes</string>
+    <string name="edit_card_string">Edit Card</string>
+</resources>
